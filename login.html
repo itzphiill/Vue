@@ -32,12 +32,12 @@
                                 <h3 class="text-center text-info">Login</h3>
 
                                 <div class="form-group">
-                                    <label v-model="userEmail" class="text-info">Username:</label>
+                                    <label for="userEmail" class="text-info">Username:</label>
                                     <input type="text" class="form-control" name="d" id="d">
                                 </div>
 
                                 <div class="form-group">
-                                    <label v-model="userPswd" class="text-info">Password:</label>
+                                    <label for="userPswd" class="text-info">Password:</label>
                                     <input type="password" class="form-control" name="userPswd" id="userPswd">
                                 </div>
 
@@ -45,11 +45,8 @@
                                     <input type="button" name="submit" class="btn btn-dark btn-md float-right"
                                         value="Login" v-on:click="loginMeth">
                                 </div>
-
-
-
-
                             </form>
+                        
                         </div>
                         <!--LOGIN FORM END -->
                     </div>
